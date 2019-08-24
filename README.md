@@ -29,6 +29,11 @@ sudo apt-get install open-jtalk open-jtalk-mecab-naist-jdic hts-voice-nitech-jp-
 jtalk.pyを修正
 ```
 
+### 任意の言葉を発話
+```
+$ python jtalk.py こんにちは
+```
+
 ### モジュールからの呼び出し
 ```
 import jtalk

@@ -37,7 +37,7 @@ $ python jtalk.py こんにちは
 ### モジュールからの呼び出し
 ```
 import jtalk
-jtalk.jtalk(文字列）
+jtalk.jtalk('こんにちは'）
 ```
 
 ## 参考情報

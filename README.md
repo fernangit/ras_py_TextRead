@@ -2,49 +2,49 @@
 text reading by python on the raspberry pie
 
 ## HOW TO USE
-### ‰¹—Ê’²ß
+### éŸ³é‡èª¿ç¯€
 ```
 alsamixer
 ```
 
-### ƒTƒEƒ“ƒho—ÍæŠm”F
+### ã‚µã‚¦ãƒ³ãƒ‰å‡ºåŠ›å…ˆç¢ºèª
 ```
 amixer cget numid=3
 ```
 
-### ƒTƒEƒ“ƒho—Íæİ’è
+### ã‚µã‚¦ãƒ³ãƒ‰å‡ºåŠ›å…ˆè¨­å®š
 ```
 amixer cset numid=3 0
 ```
-(0:©“®, 1FƒAƒiƒƒO, 2FHDMI)
+(0:è‡ªå‹•, 1ï¼šã‚¢ãƒŠãƒ­ã‚°, 2ï¼šHDMI)
 
-### OpenJtalk‚Æ«‘A‰¹ºƒCƒ“ƒXƒg[ƒ‹
+### OpenJtalkã¨è¾æ›¸ã€éŸ³å£°ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 ```
 sudo apt-get install open-jtalk open-jtalk-mecab-naist-jdic hts-voice-nitech-jp-atr503-m001
 ```
 
-### pythonƒvƒƒOƒ‰ƒ€
+### pythonãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 ```
-uOpenJTalk + python ‚Å“ú–{ŒêƒeƒLƒXƒg‚ğ”­˜bv‚æ‚è
-jtalk.py‚ğC³
-```
-
-### ”CˆÓ‚ÌŒ¾—t‚ğ”­˜b
-```
-$ python jtalk.py ‚±‚ñ‚É‚¿‚Í
+ã€ŒOpenJTalk + python ã§æ—¥æœ¬èªãƒ†ã‚­ã‚¹ãƒˆã‚’ç™ºè©±ã€ã‚ˆã‚Š
+jtalk.pyã‚’ä¿®æ­£
 ```
 
-### ƒ‚ƒWƒ…[ƒ‹‚©‚ç‚ÌŒÄ‚Ño‚µ
+### ä»»æ„ã®è¨€è‘‰ã‚’ç™ºè©±
+```
+$ python jtalk.py ã“ã‚“ã«ã¡ã¯
+```
+
+### ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‹ã‚‰ã®å‘¼ã³å‡ºã—
 ```
 import jtalk
-jtalk.jtalk('‚±‚ñ‚É‚¿‚Í'j
+jtalk.jtalk('ã“ã‚“ã«ã¡ã¯'ï¼‰
 ```
 
-## Qlî•ñ
-Raspberry pi‚Å“ú–{Œê‰¹º‡¬(Open JTalk)‚ğ‚µ‚Ä‚İ‚éB
-https://qiita.com/lutecia16v/items/8d220885082e40ace252
-OpenJTalk + python ‚Å“ú–{ŒêƒeƒLƒXƒg‚ğ”­˜b
-https://qiita.com/kkoba84/items/b828229c374a249965a9
+## å‚è€ƒæƒ…å ±
+*Raspberry piã§æ—¥æœ¬èªéŸ³å£°åˆæˆ(Open JTalk)ã‚’è©¦ã—ã¦ã¿ã‚‹ã€‚
+ *https://qiita.com/lutecia16v/items/8d220885082e40ace252
+*OpenJTalk + python ã§æ—¥æœ¬èªãƒ†ã‚­ã‚¹ãƒˆã‚’ç™ºè©±
+ *https://qiita.com/kkoba84/items/b828229c374a249965a9
 
 ## License
 

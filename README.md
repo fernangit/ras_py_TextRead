@@ -41,10 +41,10 @@ jtalk.jtalk('こんにちは'）
 ```
 
 ## 参考情報
-*Raspberry piで日本語音声合成(Open JTalk)を試してみる。
- *https://qiita.com/lutecia16v/items/8d220885082e40ace252
-*OpenJTalk + python で日本語テキストを発話
- *https://qiita.com/kkoba84/items/b828229c374a249965a9
+* Raspberry piで日本語音声合成(Open JTalk)を試してみる。
+  * https://qiita.com/lutecia16v/items/8d220885082e40ace252
+* OpenJTalk + python で日本語テキストを発話
+  * https://qiita.com/kkoba84/items/b828229c374a249965a9
 
 ## License
 
